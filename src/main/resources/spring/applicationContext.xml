@@ -13,8 +13,7 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
 
-
-	<!-- 数据库连接池 -->
+<!-- 数据库连接池 -->
 	<!-- 数据库配置文件 -->
 	<context:property-placeholder location="classpath:resource/db.properties" />
 	<!-- 数据库连接池 -->
@@ -76,4 +75,5 @@
 	</bean>
 	<!-- enable transaction annotation support -->
 	<tx:annotation-driven transaction-manager="txManager" />
+	
 </beans>

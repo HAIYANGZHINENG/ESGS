@@ -51,7 +51,9 @@
 		<table schema="" tableName="discreteParam"></table>
 		<table schema="" tableName="extensiontreeNode"></table>
 		<table schema="" tableName="questionNode"></table>
-		<table schema="" tableName="targetElement"></table>
-		<table schema="" tableName="targetNode"></table>
+		<table schema="" tableName="goalElement"></table>
+		<table schema="" tableName="goalnode"></table>
+		<table schema="" tableName="formula"></table>
+		<table schema="" tableName="relation"></table>
 	</context>
 </generatorConfiguration>
